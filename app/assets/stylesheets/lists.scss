@@ -1,0 +1,88 @@
+header {
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px #0E0000;
+  background-image: url("https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80omepage_cover.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+main {
+  padding: 20px;
+}
+
+main h2 {
+  color: black;
+  font-family: "Work Sans", "Helvetica", "sans-serif";
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 5px 5px 5px #F4F4F4;
+  text-align: left;
+  margin: 32px 32px 0;
+}
+
+.list-cards {
+  list-style: none;
+  display: flex;
+  // justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 16px;
+
+  li {
+    border-radius: 5px;
+    margin: 16px;
+    background: transparent center/cover;
+  }
+
+  a {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding-top: 130px;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+  }
+
+  .add-list {
+    border: 4px dashed rgba(0,0,0,0.2);
+    position: relative;
+
+    a {
+      background: none;
+      margin: -4px;
+      color: rgba(0,0,0,0.5);
+    }
+
+    a:before {
+      content:"+";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 20%;
+      text-align: center;
+      font-size: 4.5rem;
+      color: rgba(0,0,0,0.5);
+      font-weight: normal;
+    }
+  }
+}
+
+.all-lists {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    font-size: 4rem;
+    text-shadow: 5px 5px 5px #0E0000;
+  }
+}
